@@ -1,0 +1,21 @@
+.past {
+    padding: 5rem 0 5rem;
+    &__text {
+        margin-top: 2rem;
+    }
+    &__list {
+        margin-top: 2rem;
+    }
+    &__photo {
+        margin-top: 2rem;
+        width: 100%;
+        max-width: $width-photo;
+        font-size: 0;
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+}

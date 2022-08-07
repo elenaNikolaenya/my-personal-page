@@ -1,0 +1,10 @@
+.site-title {
+    font-size: $main-heading-size;
+    color: $heading-color;
+    text-align: center;
+    padding: 1rem 0 1rem;
+    &--bordered {
+        border-top: 2px solid $border-color;
+        border-bottom: 2px solid $border-color;
+    }
+}

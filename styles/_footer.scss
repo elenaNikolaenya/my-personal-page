@@ -1,0 +1,8 @@
+.footer {
+    padding-top: 5rem;
+    &__text {
+        font-size: 1.5rem;
+        color: $text-color;
+        text-align: right;
+    }
+}

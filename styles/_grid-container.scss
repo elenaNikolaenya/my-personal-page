@@ -1,0 +1,8 @@
+.grid-container {
+    display: grid;
+    max-width: 1180px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}

@@ -1,0 +1,8 @@
+.olist {
+    list-style-position: inside;
+    &__item {
+        font-size: $text-size;
+        color: $link-color;
+        padding-left: 1rem;
+    }
+}

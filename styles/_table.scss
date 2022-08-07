@@ -1,0 +1,13 @@
+.table {
+    &__key {
+        font-size: $text-size;
+        color: $text-color;
+        text-decoration: underline;
+        padding: .5rem 0;
+    }
+    &__value {
+        font-size: $text-size;
+        color: $text-color;
+        padding-left: 1rem;
+    }
+}

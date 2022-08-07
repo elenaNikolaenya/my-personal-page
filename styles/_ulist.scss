@@ -1,0 +1,12 @@
+.ulist {
+    list-style-position: inside;
+    list-style-type: none;
+    &__item {
+        font-size: $text-size;
+        color: $text-color;
+        &::before {
+            content: "-";
+            padding-right: 10px;
+        }
+    }
+}

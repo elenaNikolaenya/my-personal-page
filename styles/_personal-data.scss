@@ -1,0 +1,18 @@
+.personal-data {
+    padding: 5rem 0 5rem;
+    &__photo {
+        margin-top: 2rem;
+        width: 100%;
+        max-width: $width-photo;
+        font-size: 0;
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        align-self: flex-start;
+    }
+    &__table {
+        margin-left: 2rem;
+        max-width: 80rem;
+        align-self: center;
+    }
+}

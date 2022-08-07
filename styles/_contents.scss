@@ -1,0 +1,12 @@
+.contents {
+    &__title {
+        font-size: $heading-size;
+        font-style: italic;
+        font-weight: 500;
+        color: $heading-color;
+        text-align: center;
+    }
+    &__list {
+        margin-top: 2rem;
+    }
+}

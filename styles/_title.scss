@@ -1,0 +1,12 @@
+.title {
+    font-size: $heading-size;
+    color: $heading-color;
+    text-align: center;
+    &--bordered {
+        border-top: 2px solid $border-color;
+        border-bottom: 2px solid $border-color;
+    }
+    &--italic {
+        font-style: italic;
+    }
+}

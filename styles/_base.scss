@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: $primary-font;
+    /*цвет совпадает с дефолтным, но указан, чтобы можно было изменить просто заменой значения в переменной*/
+    color: $text-color;
+    background-color: rgba(242, 249, 254, .5);
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+}

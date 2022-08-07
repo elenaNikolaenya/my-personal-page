@@ -1,0 +1,9 @@
+.back {
+    font-size: 5rem;
+    color: $link-color;
+    &__positioned {
+        position: absolute;
+        right: 3rem;
+        bottom: 4rem;
+    }
+}
